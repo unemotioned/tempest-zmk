@@ -194,7 +194,7 @@
         mac_util {
             bindings = <
        &my_email  &none  &none          &none          &none   &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3
-&none  &none      &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &none   &none           &none           &none           &none         &none         &tog 4
+&none  &none      &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &none   &none           &none           &none           &none         &none         &to 4
        &my_alias  &none  &none          &none          &none   &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))  &none         &none
                          &none          &none          &trans  &trans          &none           &none
             >;
@@ -229,10 +229,10 @@
 
         win_util {
             bindings = <
-        &my_email  &none  &none          &none          &none   &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3
-&tog 0  &none      &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &none   &none          &none          &none          &none         &none         &none
-        &my_alias  &none  &none          &none          &none   &kp LS(LA(J))  &kp LS(LA(K))  &kp LS(LA(L))  &none         &none
-                          &none          &none          &trans  &trans         &none          &none
+       &my_email  &none  &none          &none          &none   &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2  &bt BT_SEL 3
+&to 0  &none      &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &none   &none          &none          &none          &none         &none         &none
+       &my_alias  &none  &none          &none          &none   &kp LS(LA(J))  &kp LS(LA(K))  &kp LS(LA(L))  &none         &none
+                         &none          &none          &trans  &trans         &none          &none
             >;
         };
 
