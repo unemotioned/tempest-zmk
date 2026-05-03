@@ -21,7 +21,7 @@ layers:
   - {t: J, h: ⌘}
   - {t: K, h: ⎇}
   - {t: L, h: ⌃}
-  - {t: ;, h: RSHIFT, s: ':'}
+  - {t: ;, h: ⇧, s: ':'}
   - ''''
   - Z
   - X
@@ -383,15 +383,3 @@ combos:
 - p: [24, 25]
   k: Ctl+V
   l: [win_base]
-- p: [14, 13]
-  k: {t: '`', s: '~'}
-  l: [mac_base, win_base]
-- p: [13, 12]
-  k: '~'
-  l: [mac_base, win_base]
-- p: [17, 18]
-  k: \
-  l: [mac_base, win_base]
-- p: [18, 19]
-  k: '|'
-  l: [mac_base, win_base]
