@@ -35,7 +35,7 @@ layers:
   - {t: /, s: '?'}
   - ↹
   - {t: BSPC, h: ⇧}
-  - {t: ENTER, h: mac_num}
+  - {t: ENTER, h: mac_nav}
   - {t: ESC, h: mac_nav}
   - ⎵
   - F16
@@ -62,7 +62,7 @@ layers:
   - '9'
   - '0'
   - '"'
-  - ''
+  - {t: ',', s: <}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
@@ -74,7 +74,7 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - boot
-  - {type: held}
+  - {t: ▽, type: trans}
   - mac_util
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,16 +115,16 @@ layers:
   - BRI DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - mac_util
-  - {type: held}
+  - {t: mac_util, type: held}
+  - {t: ▽, type: trans}
   - boot
   - {t: ▽, type: trans}
   mac_util:
-  - '&my_email'
   - ''
   - ''
   - ''
   - ''
+  - '&my_alias_up'
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -135,18 +135,18 @@ layers:
   - ''
   - Ctl+PG UP
   - Ctl+PG DN
+  - '&my_email'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - '~'
+  - {t: '`', s: '~'}
+  - '|'
+  - \
   - {t: win_base, h: toggle}
-  - '&my_alias'
   - ''
   - ''
   - ''
   - ''
+  - '&my_alias_low'
   - Sft+Gui+3
   - Sft+Gui+4
   - Sft+Gui+5
@@ -154,7 +154,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
@@ -220,7 +220,7 @@ layers:
   - '9'
   - '0'
   - '"'
-  - ''
+  - {t: ',', s: <}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '{'
@@ -278,36 +278,36 @@ layers:
   - boot
   - {t: ▽, type: trans}
   win_util:
-  - '&my_email'
   - ''
   - ''
   - ''
   - ''
+  - '&my_alias_up'
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: mac_base, h: toggle}
+  - {t: mac_num, h: toggle}
   - ''
   - ''
   - Ctl+PG UP
   - Ctl+PG DN
+  - '&my_email'
+  - ''
+  - '~'
+  - {t: '`', s: '~'}
+  - '|'
+  - \
   - ''
   - ''
   - ''
   - ''
   - ''
+  - '&my_alias_low'
   - ''
+  - PRINTSCREEN
   - ''
-  - '&my_alias'
-  - ''
-  - ''
-  - ''
-  - ''
-  - Sft+Alt+J
-  - Sft+Alt+K
-  - Sft+Alt+L
   - ''
   - ''
   - ''
@@ -351,29 +351,29 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
 combos:
 - p: [28, 29]
   k: <
-  l: [mac_base, mac_num, win_base, win_num]
+  l: [mac_num, mac_nav, win_base, win_num]
 - p: [29, 30]
   k: '>'
-  l: [mac_base, mac_num, win_base, win_num]
+  l: [mac_num, mac_nav, win_base, win_num]
 - p: [22, 23]
   k: ⌘Z
-  l: [mac_base]
+  l: [mac_num]
 - p: [23, 25]
   k: ⌘X
-  l: [mac_base]
+  l: [mac_num]
 - p: [23, 24]
   k: ⌘C
-  l: [mac_base]
+  l: [mac_num]
 - p: [24, 25]
   k: ⌘V
-  l: [mac_base]
+  l: [mac_num]
 - p: [22, 23]
   k: Ctl+Z
   l: [win_base]
