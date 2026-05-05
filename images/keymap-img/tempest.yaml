@@ -124,7 +124,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&my_alias_up'
+  - '&my_alias'
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -135,7 +135,7 @@ layers:
   - ''
   - Ctl+PG UP
   - Ctl+PG DN
-  - '&my_email'
+  - ''
   - ''
   - '~'
   - {t: '`', s: '~'}
@@ -146,7 +146,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&my_alias_low'
+  - '&my_email'
   - Sft+Gui+3
   - Sft+Gui+4
   - Sft+Gui+5
@@ -282,7 +282,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&my_alias_up'
+  - '&my_alias'
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -293,7 +293,7 @@ layers:
   - ''
   - Ctl+PG UP
   - Ctl+PG DN
-  - '&my_email'
+  - ''
   - ''
   - '~'
   - {t: '`', s: '~'}
@@ -304,7 +304,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&my_alias_low'
+  - '&my_email'
   - ''
   - PRINTSCREEN
   - ''

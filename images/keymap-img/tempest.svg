@@ -762,7 +762,7 @@ path.combo {
 </g>
 <g transform="translate(315, 48)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;my_alias_up</text>
+<text x="0" y="0" class="key tap">&amp;my_alias</text>
 </g>
 <g transform="translate(622, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -813,7 +813,6 @@ path.combo {
 </g>
 <g transform="translate(315, 104)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;my_email</text>
 </g>
 <g transform="translate(622, 104)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -855,7 +854,7 @@ path.combo {
 </g>
 <g transform="translate(315, 160)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;my_alias_low</text>
+<text x="0" y="0" class="key tap">&amp;my_email</text>
 </g>
 <g transform="translate(622, 160)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1444,7 +1443,7 @@ path.combo {
 </g>
 <g transform="translate(315, 48)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;my_alias_up</text>
+<text x="0" y="0" class="key tap">&amp;my_alias</text>
 </g>
 <g transform="translate(622, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1498,7 +1497,6 @@ path.combo {
 </g>
 <g transform="translate(315, 104)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;my_email</text>
 </g>
 <g transform="translate(622, 104)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1537,7 +1535,7 @@ path.combo {
 </g>
 <g transform="translate(315, 160)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;my_alias_low</text>
+<text x="0" y="0" class="key tap">&amp;my_email</text>
 </g>
 <g transform="translate(622, 160)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

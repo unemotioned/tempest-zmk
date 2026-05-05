@@ -100,18 +100,11 @@
             label = "MY_EMAIL";
         };
 
-        my_alias_up: my_alias {
+        my_alias: my_alias {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(U) &kp N &kp LS(E) &kp M &kp O &kp T &kp I &kp O &kp N &kp E &kp LS(D)>;
             label = "MY_ALIAS";
-        };
-
-        my_alias_low: my_alias_low {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp E &kp M &kp O &kp T &kp I &kp O &kp N &kp E &kp D>;
-            label = "MY_ALIAS_LOW";
         };
     };
 
@@ -173,10 +166,10 @@
 
         mac_util {
             bindings = <
-       &none  &none  &none          &none          &my_alias_up   &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3
-&none  &none  &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &my_email      &none           &kp TILDE       &kp GRAVE       &kp PIPE      &kp BSLH      &to 4
-       &none  &none  &none          &none          &my_alias_low  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))  &none         &none
-                     &none          &none          &trans         &trans          &none           &none
+       &none  &none  &none          &none          &my_alias  &bt BT_CLR      &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3
+&none  &none  &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &none      &none           &kp TILDE       &kp GRAVE       &kp PIPE      &kp BSLH      &to 4
+       &none  &none  &none          &none          &my_email  &kp LS(LG(N3))  &kp LS(LG(N4))  &kp LS(LG(N5))  &none         &none
+                     &none          &none          &trans     &trans          &none           &none
             >;
         };
 
@@ -209,10 +202,10 @@
 
         win_util {
             bindings = <
-       &none  &none  &none          &none          &my_alias_up   &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
-&to 1  &none  &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &my_email      &none       &kp TILDE        &kp GRAVE     &kp PIPE      &kp BSLH      &none
-       &none  &none  &none          &none          &my_alias_low  &none       &kp PRINTSCREEN  &none         &none         &none
-                     &none          &none          &trans         &trans      &none            &none
+       &none  &none  &none          &none          &my_alias  &bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3
+&to 1  &none  &none  &kp LC(PG_UP)  &kp LC(PG_DN)  &none      &none       &kp TILDE        &kp GRAVE     &kp PIPE      &kp BSLH      &none
+       &none  &none  &none          &none          &my_email  &none       &kp PRINTSCREEN  &none         &none         &none
+                     &none          &none          &trans     &trans      &none            &none
             >;
         };
 
