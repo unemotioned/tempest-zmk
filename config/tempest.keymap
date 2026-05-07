@@ -9,11 +9,11 @@
 #include <dt-bindings/zmk/keys.h>
 
 &lt {
-    quick-tap-ms = <200>;
+    quick-tap-ms = <175>;
     flavor = "hold-preferred";
 };
 
-&mt { quick-tap-ms = <200>; };
+&mt { quick-tap-ms = <175>; };
 
 / {
     combos {
@@ -118,7 +118,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <5 6 7 8 9 12 13 14 16 17 18 19 20 21 27 28 29 30 31 32 33 34 35 36 37>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <175>;
         };
 
         hrm_r: hrm_r {
@@ -130,7 +130,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 17 18 19 20 22 23 24 25 26 32 33 34 35 36 37>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <175>;
         };
     };
 
