@@ -1,0 +1,275 @@
+layout: {zmk_keyboard: tempest}
+layers:
+  base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - CAPS
+  - {t: A, h: LWIN}
+  - {t: S, h: ⌃}
+  - {t: D, h: ⇧}
+  - {t: F, h: ⎇}
+  - G
+  - H
+  - {t: J, h: ⎇}
+  - {t: K, h: ⇧}
+  - {t: L, h: ⌃}
+  - {t: ;, h: LWIN, s: ':'}
+  - ''''
+  - Z
+  - X
+  - {t: C, h: numb}
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - /
+  - ↹
+  - {t: BSPC, h: ⇧}
+  - {t: ENTER, h: symb}
+  - {t: ESC, h: arrw}
+  - ⎵
+  - ⎇
+  symb:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '"'
+  - {t: ',', s: <}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
+  - _
+  - '-'
+  - +
+  - {t: ▽, type: trans}
+  - '='
+  - {t: ▽, type: trans}
+  - boot
+  - {type: held}
+  - util
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  arrw:
+  - F9
+  - F10
+  - F11
+  - F12
+  - INS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - DEL
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - BRI UP
+  - ←
+  - ↓
+  - ↑
+  - →
+  - PP
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - BRI DN
+  - PREV
+  - VOL DN
+  - 'VOL
+
+    UP'
+  - ⏭
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - util
+  - {type: held}
+  - boot
+  - {t: ▽, type: trans}
+  util:
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PRINTSCREEN
+  - Ctl+PRINTSCREEN
+  - Ctl+Sft+PRINTSCREEN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&my_email'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  boot:
+  - ''
+  - ''
+  - ''
+  - ''
+  - BOOT
+  - BOOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  numb:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {t: ., s: '>'}
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - ↹
+  - BSPC
+  - ENTER
+  - ESC
+  - ⎵
+  - '0'
+combos:
+- p: [23, 25]
+  k: Ctl+X
+  l: [base]
+- p: [23, 24]
+  k: Ctl+C
+  l: [base]
+- p: [24, 25]
+  k: Ctl+V
+  l: [base]
+- p: [22, 23]
+  k: Ctl+Z
+  l: [base]
+- p: [17, 18]
+  k: ''''
+  l: [base]
+- p: [18, 19]
+  k: '-'
+  l: [base]
+- p: [28, 29]
+  k: {t: '`', s: '~'}
+  l: [base]
+- p: [29, 30]
+  k: \
+  l: [base]
+- p: [28, 29]
+  k: <
+  l: [symb]
+- p: [29, 30]
+  k: '>'
+  l: [symb]
+- p: [12, 13]
+  k: '&youtube_speed_down'
+  l: [base]
+- p: [13, 14]
+  k: '&youtube_speed_up'
+  l: [base]
