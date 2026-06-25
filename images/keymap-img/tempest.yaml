@@ -1,0 +1,406 @@
+layout: {zmk_keyboard: tempest}
+layers:
+  mac_base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Ctl+Alt+⇧
+  - {t: A, h: Ctl+Alt+Gui+⇧}
+  - {t: S, h: ⌃}
+  - {t: D, h: ⎇}
+  - {t: F, h: ⌘}
+  - G
+  - H
+  - {t: J, h: ⌘}
+  - {t: K, h: ⎇}
+  - {t: L, h: ⌃}
+  - {t: ;, h: ⇧, s: ':'}
+  - ''''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - ↹
+  - {t: BSPC, h: ⇧}
+  - {t: ENTER, h: mac_symb}
+  - {t: ESC, h: mac_arrw}
+  - ⎵
+  - F16
+  mac_symb:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '"'
+  - {t: ',', s: <}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
+  - _
+  - '-'
+  - +
+  - {t: ▽, type: trans}
+  - '='
+  - {t: ▽, type: trans}
+  - boot
+  - {type: held}
+  - mac_util
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  mac_arrw:
+  - F9
+  - F10
+  - F11
+  - F12
+  - INS
+  - MUTE
+  - PG UP
+  - PG DN
+  - PP
+  - DEL
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
+  - HOME
+  - ←
+  - ↓
+  - ↑
+  - →
+  - BRI UP
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - END
+  - PREV
+  - VOL DN
+  - 'VOL
+
+    UP'
+  - ⏭
+  - BRI DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - mac_util
+  - {type: held}
+  - boot
+  - {t: ▽, type: trans}
+  mac_util:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - Ctl+PG UP
+  - Ctl+PG DN
+  - ''
+  - {t: win_base, h: toggle}
+  - Sft+Gui+4
+  - Sft+Gui+3
+  - Sft+Gui+5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&my_email'
+  - '&my_alias'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  win_base:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - Ctl+Alt+⇧
+  - {t: A, h: Ctl+Alt+Gui+⇧}
+  - {t: S, h: ⌃}
+  - {t: D, h: ⌘}
+  - {t: F, h: ⎇}
+  - G
+  - H
+  - {t: J, h: ⎇}
+  - {t: K, h: ⌘}
+  - {t: L, h: ⌃}
+  - {t: ;, h: ⇧, s: ':'}
+  - ''''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - ↹
+  - {t: BSPC, h: ⇧}
+  - {t: ENTER, h: win_symb}
+  - {t: ESC, h: win_arrw}
+  - ⎵
+  - ⎇
+  win_symb:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '"'
+  - {t: ',', s: <}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
+  - _
+  - '-'
+  - +
+  - {t: ▽, type: trans}
+  - '='
+  - {t: ▽, type: trans}
+  - boot
+  - {type: held}
+  - win_util
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  win_arrw:
+  - F9
+  - F10
+  - F11
+  - F12
+  - INS
+  - MUTE
+  - PG UP
+  - PG DN
+  - PP
+  - DEL
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
+  - HOME
+  - ←
+  - ↓
+  - ↑
+  - →
+  - BRI UP
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - END
+  - PREV
+  - VOL DN
+  - 'VOL
+
+    UP'
+  - ⏭
+  - BRI DN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - win_util
+  - {type: held}
+  - boot
+  - {t: ▽, type: trans}
+  win_util:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - Ctl+PG UP
+  - Ctl+PG DN
+  - {t: mac_base, h: toggle}
+  - ''
+  - PRINTSCREEN
+  - Ctl+PRINTSCREEN
+  - Ctl+Sft+PRINTSCREEN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&my_email'
+  - '&my_alias'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  boot:
+  - ''
+  - ''
+  - ''
+  - ''
+  - BOOT
+  - BOOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+combos:
+- p: [23, 25]
+  k: ⌘X
+  l: [mac_base]
+- p: [23, 24]
+  k: ⌘C
+  l: [mac_base]
+- p: [24, 25]
+  k: ⌘V
+  l: [mac_base]
+- p: [22, 23]
+  k: ⌘Z
+  l: [mac_base]
+- p: [23, 25]
+  k: Ctl+X
+  l: [win_base]
+- p: [23, 24]
+  k: Ctl+C
+  l: [win_base]
+- p: [24, 25]
+  k: Ctl+V
+  l: [win_base]
+- p: [22, 23]
+  k: Ctl+Z
+  l: [win_base]
+- p: [17, 18]
+  k: ''''
+  l: [mac_base, win_base]
+- p: [18, 19]
+  k: '-'
+  l: [mac_base, win_base]
+- p: [28, 29]
+  k: {t: '`', s: '~'}
+  l: [mac_base, win_base]
+- p: [29, 30]
+  k: \
+  l: [mac_base, win_base]
+- p: [28, 29]
+  k: <
+  l: [mac_symb, win_symb]
+- p: [29, 30]
+  k: '>'
+  l: [mac_symb, win_symb]
+- p: [12, 13]
+  k: '&youtube_speed_down'
+  l: [mac_base, win_base]
+- p: [13, 14]
+  k: '&youtube_speed_up'
+  l: [mac_base, win_base]
