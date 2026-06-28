@@ -27,6 +27,8 @@
 왼쪽이 메인으로 오른쪽이 왼쪽에 연결되고 왼쪽이 컴퓨터랑 연결되기 때문에 왼쪽 배터리가 더 빨리 닳는다.
 4~5일에 한번 30분 정도 충전하면 됨.
 
+유선으로 사용할때는 왼쪽만 연결하고서 사용할 수있다.
+
 컨트롤러 테두리는 보기 좋게 검게 칠함.
 
 ---
@@ -35,7 +37,7 @@
 
 - [git](https://git-scm.com/install/windows) 설치
 - [sourcetree](https://www.sourcetreeapp.com/) 설치 (mercury, bitbucket 등의
-설정은 넘겨도 된다)
+  설정은 넘겨도 된다)
 
 ---
 
@@ -49,9 +51,20 @@
 
 ## Flash
 
+깃허브 리포의 액션으로 빌드한 zip파일을 다운받고 압축을푼다. settings_reset.uf2,
+오른쪽, 왼쪽 uf2 파일들이 들어있음.
+
+양쪽 키보드 전원을 키고서 리셋버튼을 약간 빠르게 두번 누르거나 [소프트웨어 리셋](#4-boot)으로 `boot loader` 모드로 들어간다.
+
+파일 탐색기에 `NICENANO` 장치를 열고서 왼쪽 오른쪽에 맞게 `uf2` 파일을 붙여넣는다.
+
+reset 파일은 고장낫을때만 양쪽에 넣고서 그 다음에 왼쪽, 오른쪽에 넣으면 되다.
+
 ### Local Build
 
-[unemotioned charybdis-zmk](https://github.com/unemotioned/charybdis-zmk) 참고
+[unemotioned charybdis-zmk](https://github.com/unemotioned/charybdis-zmk) 참고.
+`Windows`에서도 할수는 있지만 어떻게 하는지 모르겠는데 `WSL`에서 패키지들을 `Ubuntu`에 맞게
+설치하면 될듯.
 
 ---
 
