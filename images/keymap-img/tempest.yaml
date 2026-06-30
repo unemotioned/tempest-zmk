@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - Ctl+Alt+⇧
+  - ''
   - {t: A, h: Ctl+Alt+Gui+⇧}
   - {t: S, h: ⌃}
   - {t: D, h: ⎇}
@@ -22,17 +22,17 @@ layers:
   - {t: K, h: ⎇}
   - {t: L, h: ⌃}
   - {t: ;, h: ⇧, s: ':'}
-  - ''''
+  - ''
   - Z
   - X
-  - C
+  - {t: C, h: numb}
   - V
   - B
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - /
   - ↹
   - {t: BSPC, h: ⇧}
   - {t: ENTER, h: mac_symb}
@@ -50,7 +50,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
+  - ''
   - '1'
   - '2'
   - '3'
@@ -61,7 +61,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '"'
+  - ''
   - {t: ',', s: <}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -84,35 +84,35 @@ layers:
   - F11
   - F12
   - INS
-  - MUTE
+  - HOME
   - PG UP
   - PG DN
-  - PP
+  - END
   - DEL
-  - {t: ▽, type: trans}
+  - ''
   - F5
   - F6
   - F7
   - F8
-  - HOME
+  - BRI UP
   - ←
   - ↓
   - ↑
   - →
-  - BRI UP
-  - {t: ▽, type: trans}
+  - PP
+  - ''
   - F1
   - F2
   - F3
   - F4
-  - END
+  - BRI DN
   - PREV
   - VOL DN
   - 'VOL
 
     UP'
   - ⏭
-  - BRI DN
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - mac_util
@@ -124,8 +124,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -133,8 +133,8 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+PG UP
-  - Ctl+PG DN
+  - ''
+  - '&ij_search_everywhere'
   - ''
   - {t: win_base, h: toggle}
   - Sft+Gui+4
@@ -150,7 +150,7 @@ layers:
   - ''
   - '&my_email'
   - '&my_alias'
-  - ''
+  - Ctl+Alt+C
   - ''
   - ''
   - ''
@@ -169,7 +169,7 @@ layers:
   - I
   - O
   - P
-  - Ctl+Alt+⇧
+  - ''
   - {t: A, h: Ctl+Alt+Gui+⇧}
   - {t: S, h: ⌃}
   - {t: D, h: ⌘}
@@ -180,17 +180,17 @@ layers:
   - {t: K, h: ⌘}
   - {t: L, h: ⌃}
   - {t: ;, h: ⇧, s: ':'}
-  - ''''
+  - ''
   - Z
   - X
-  - C
+  - {t: C, h: numb}
   - V
   - B
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - /
   - ↹
   - {t: BSPC, h: ⇧}
   - {t: ENTER, h: win_symb}
@@ -208,7 +208,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: ▽, type: trans}
+  - ''
   - '1'
   - '2'
   - '3'
@@ -219,7 +219,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '"'
+  - ''
   - {t: ',', s: <}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -242,35 +242,35 @@ layers:
   - F11
   - F12
   - INS
-  - MUTE
+  - HOME
   - PG UP
   - PG DN
-  - PP
+  - END
   - DEL
-  - {t: ▽, type: trans}
+  - ''
   - F5
   - F6
   - F7
   - F8
-  - HOME
+  - BRI UP
   - ←
   - ↓
   - ↑
   - →
-  - BRI UP
-  - {t: ▽, type: trans}
+  - PP
+  - ''
   - F1
   - F2
   - F3
   - F4
-  - END
+  - BRI DN
   - PREV
   - VOL DN
   - 'VOL
 
     UP'
   - ⏭
-  - BRI DN
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - win_util
@@ -282,8 +282,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - BT CLR
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -291,8 +291,8 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+PG UP
-  - Ctl+PG DN
+  - ''
+  - '&ij_search_everywhere'
   - {t: mac_base, h: toggle}
   - ''
   - PRINTSCREEN
@@ -308,7 +308,7 @@ layers:
   - ''
   - '&my_email'
   - '&my_alias'
-  - ''
+  - '&center_window'
   - ''
   - ''
   - ''
@@ -316,6 +316,45 @@ layers:
   - {type: held}
   - ''
   - ''
+  numb:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - {t: ',', s: <}
+  - '1'
+  - '2'
+  - '3'
+  - '='
+  - ↹
+  - BSPC
+  - ENTER
+  - ESC
+  - '0'
+  - {t: ., s: '>'}
   boot:
   - ''
   - ''
