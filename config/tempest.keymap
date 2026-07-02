@@ -221,16 +221,6 @@
             flavor = "tap-preferred";
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 17 18 19 20 22 23 24 25 26 32 33 34 35 36 37>;
         };
-
-        numb_pad: numb_pad {
-            compatible = "zmk,behavior-hold-tap";
-            bindings = <&mo>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <180>;
-            quick-tap-ms = <170>;
-            flavor = "tap-preferred";
-        };
     };
 
     keymap {
@@ -240,7 +230,7 @@
             bindings = <
        &kp Q                       &kp W           &kp E          &kp R           &kp T        &kp Y      &kp U          &kp I          &kp O           &kp P
 &none  &hrm_l LC(LA(LG(LSHFT))) A  &hrm_l LCTRL S  &hrm_l LALT D  &hrm_l LGUI F   &kp G        &kp H      &hrm_r RGUI J  &hrm_r RALT K  &hrm_r RCTRL L  &hrm_r RSHFT SEMI  &none
-       &kp Z                       &kp X           &numb_pad 8 C  &kp V           &kp B        &kp N      &kp M          &kp COMMA      &kp DOT         &kp FSLH
+       &kp Z                       &kp X           &kp C          &kp V           &kp B        &kp N      &kp M          &kp COMMA      &kp DOT         &kp FSLH
                                                    &kp TAB        &mt LSHFT BSPC  &lt 1 ENTER  &lt 2 ESC  &kp SPACE      &kp F16
             >;
         };
@@ -250,7 +240,7 @@
        &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
 &none  &kp N1     &kp N2    &kp N3    &kp N4    &kp N5     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &none
        &kp COMMA  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC   &kp UNDER  &kp MINUS  &kp PLUS   &trans    &kp EQUAL
-                            &trans    &mo 9     &trans     &mo 3      &trans     &trans
+                            &trans    &mo 8     &trans     &mo 3      &trans     &trans
             >;
         };
 
@@ -259,7 +249,7 @@
        &kp F9  &kp F10  &kp F11  &kp F12  &kp INS       &kp HOME    &kp PG_UP     &kp PG_DN        &kp END     &kp DEL
 &none  &kp F5  &kp F6   &kp F7   &kp F8   &kp C_BRI_UP  &kp LEFT    &kp DOWN      &kp UP           &kp RIGHT   &kp C_PP    &none
        &kp F1  &kp F2   &kp F3   &kp F4   &kp C_BRI_DN  &kp C_PREV  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT  &kp C_MUTE
-                        &trans   &trans   &mo 3         &trans      &mo 9         &trans
+                        &trans   &trans   &mo 3         &trans      &mo 8         &trans
             >;
         };
 
@@ -267,7 +257,7 @@
             bindings = <
        &none  &none  &none  &none                  &bt BT_CLR  &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3
 &none  &none  &none  &none  &ij_search_everywhere  &none       &to 4   &kp LS(LG(N4))  &kp LS(LG(N3))  &kp LS(LG(N5))  &none         &none
-       &none  &none  &none  &none                  &none       &none   &my_email       &my_alias       &kp LC(LA(C))   &none
+       &none  &none  &none  &none                  &none       &none   &my_email       &my_alias       &none           &none
                      &none  &none                  &trans      &trans  &none           &none
             >;
         };
@@ -276,7 +266,7 @@
             bindings = <
        &kp Q                       &kp W           &kp E          &kp R           &kp T        &kp Y      &kp U          &kp I          &kp O           &kp P
 &none  &hrm_l LC(LA(LG(LSHFT))) A  &hrm_l LCTRL S  &hrm_l LGUI D  &hrm_l LALT F   &kp G        &kp H      &hrm_r LALT J  &hrm_r LGUI K  &hrm_r LCTRL L  &hrm_r LSHFT SEMI  &none
-       &kp Z                       &kp X           &numb_pad 8 C  &kp V           &kp B        &kp N      &kp M          &kp COMMA      &kp DOT         &kp FSLH
+       &kp Z                       &kp X           &kp C          &kp V           &kp B        &kp N      &kp M          &kp COMMA      &kp DOT         &kp FSLH
                                                    &kp TAB        &mt LSHFT BSPC  &lt 5 ENTER  &lt 6 ESC  &kp SPACE      &kp RALT
             >;
         };
@@ -286,7 +276,7 @@
        &kp EXCL   &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
 &none  &kp N1     &kp N2    &kp N3    &kp N4    &kp N5     &kp N6     &kp N7     &kp N8     &kp N9    &kp N0     &none
        &kp COMMA  &kp LBKT  &kp RBKT  &kp LBRC  &kp RBRC   &kp UNDER  &kp MINUS  &kp PLUS   &trans    &kp EQUAL
-                            &trans    &mo 9     &trans     &mo 7      &trans     &trans
+                            &trans    &mo 8     &trans     &mo 7      &trans     &trans
             >;
         };
 
@@ -295,25 +285,16 @@
        &kp F9  &kp F10  &kp F11  &kp F12  &kp INS       &kp HOME    &kp PG_UP     &kp PG_DN        &kp END     &kp DEL
 &none  &kp F5  &kp F6   &kp F7   &kp F8   &kp C_BRI_UP  &kp LEFT    &kp DOWN      &kp UP           &kp RIGHT   &kp C_PP    &none
        &kp F1  &kp F2   &kp F3   &kp F4   &kp C_BRI_DN  &kp C_PREV  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT  &kp C_MUTE
-                        &trans   &trans   &mo 7         &trans      &mo 9         &trans
+                        &trans   &trans   &mo 7         &trans      &mo 8         &trans
             >;
         };
 
         win_util {
             bindings = <
        &none  &none  &none  &none                  &bt BT_CLR  &none   &bt BT_SEL 0     &bt BT_SEL 1         &bt BT_SEL 2             &bt BT_SEL 3
-&none  &none  &none  &none  &ij_search_everywhere  &to 0       &none   &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LC(LS(PRINTSCREEN))  &none         &none
-       &none  &none  &none  &none                  &none       &none   &my_email        &my_alias            &center_window           &none
+&none  &none  &none  &none  &ij_search_everywhere  &to 0       &none   &kp PRINTSCREEN  &kp LC(PRINTSCREEN)  &kp LC(LS(PRINTSCREEN))  &center_window  &none
+       &none  &none  &none  &none                  &none       &none   &my_email        &my_alias            &none                    &none
                      &none  &none                  &trans      &trans  &none            &none
-            >;
-        };
-
-        numb {
-            bindings = <
-       &none  &none  &none    &none     &none      &kp FSLH   &kp N7  &kp N8   &kp N9  &kp MINUS
-&none  &none  &none  &none    &none     &none      &kp ASTRK  &kp N4  &kp N5   &kp N6  &kp PLUS   &none
-       &none  &none  &trans   &none     &none      &kp COMMA  &kp N1  &kp N2   &kp N3  &kp EQUAL
-                     &kp TAB  &kp BSPC  &kp ENTER  &kp ESC    &kp N0  &kp DOT
             >;
         };
 

@@ -25,7 +25,7 @@ layers:
   - ''
   - Z
   - X
-  - {t: C, h: numb}
+  - C
   - V
   - B
   - N
@@ -150,7 +150,7 @@ layers:
   - ''
   - '&my_email'
   - '&my_alias'
-  - Ctl+Alt+C
+  - ''
   - ''
   - ''
   - ''
@@ -183,7 +183,7 @@ layers:
   - ''
   - Z
   - X
-  - {t: C, h: numb}
+  - C
   - V
   - B
   - N
@@ -298,7 +298,7 @@ layers:
   - PRINTSCREEN
   - Ctl+PRINTSCREEN
   - Ctl+Sft+PRINTSCREEN
-  - ''
+  - '&center_window'
   - ''
   - ''
   - ''
@@ -308,7 +308,7 @@ layers:
   - ''
   - '&my_email'
   - '&my_alias'
-  - '&center_window'
+  - ''
   - ''
   - ''
   - ''
@@ -316,45 +316,6 @@ layers:
   - {type: held}
   - ''
   - ''
-  numb:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - '-'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '*'
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - {t: ',', s: <}
-  - '1'
-  - '2'
-  - '3'
-  - '='
-  - ↹
-  - BSPC
-  - ENTER
-  - ESC
-  - '0'
-  - {t: ., s: '>'}
   boot:
   - ''
   - ''
