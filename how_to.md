@@ -120,7 +120,7 @@ Hold Tap으로 지정된 키 `&hrm_l`, `&hrm_r`, `&lt`, `&mt` 등의 키를 연�
 Cut, Copy, Paste, Undo [콤보](https://zmk.dev/docs/keymaps/combos)를 왼쪽 R4에 배치했는데 그러면 오른손으로 마우스를 조작하면서 복사 붙여넣기등을 하기가 편하다. 왼손에 bspc, enter 키가 있는 것 도 비슷한 이유.
 
 - 작은 따옴표(`'`) 콤보: 36키 레이아웃에서 쓰기 때문에 추가했는데 손목을 밖으로 구부리지 않아도 돼서 생각보다 편하다.
-- 마이너스(dash) 콤보: `SCREAM_SNAKE_CASE`를 입력할때 base와 symb 레이어를 왔다갔다 하기 않기 위해.
+- 마이너스(dash) 콤보: `SCREAMING_SNAKE_CASE`를 입력할때 base와 symb 레이어를 왔다갔다 하기 않기 위해.
 - youtube_speed_up/down 콤보: 유튜브에서 `<`, `>`를 이용해서 배속 조절이 가능한데 그걸 4번 알아서 해주는 Macro를 먼저 지정하고 사용.
 
 > [!NOTE]
