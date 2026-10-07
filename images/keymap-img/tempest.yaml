@@ -278,10 +278,10 @@ layers:
   - boot
   - {t: ▽, type: trans}
   mac_util:
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+6
+  - Gui+F12
+  - Gui+4
+  - Ctl+Alt+R
   - ''
   - BT CLR
   - {t: BT, h: '0'}
@@ -289,10 +289,10 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+1
+  - Alt+Gui+Sft+E
+  - Gui+Sft+O
+  - Gui+Sft+A
   - ''
   - {t: win_base, h: toggle}
   - Sft+Gui+4
@@ -300,10 +300,10 @@ layers:
   - Sft+Gui+5
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+N
+  - Sft+6
+  - Alt+Gui+F7
+  - Alt+Gui+L
   - ''
   - ''
   - '&my_email'
