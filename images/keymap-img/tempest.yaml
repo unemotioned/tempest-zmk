@@ -120,21 +120,21 @@ layers:
   - boot
   - {t: ▽, type: trans}
   mac_util:
-  - ''
-  - ''
-  - ''
+  - Gui+6
+  - Gui+F12
+  - Gui+4
+  - Alt+Ctl+R
   - ''
   - BT CLR
-  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - ''
-  - ''
-  - ''
-  - ''
-  - '&ij_search_everywhere'
+  - Gui+1
+  - Sft+Alt+Gui+E
+  - Sft+Gui+O
+  - Sft+Gui+A
   - ''
   - {t: win_base, h: toggle}
   - Sft+Gui+4
@@ -142,10 +142,10 @@ layers:
   - Sft+Gui+5
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+N
+  - Sft+F6
+  - Alt+Gui+F7
+  - Alt+Gui+L
   - ''
   - ''
   - '&my_email'
@@ -278,21 +278,21 @@ layers:
   - boot
   - {t: ▽, type: trans}
   win_util:
-  - ''
-  - ''
-  - ''
+  - Alt+6
+  - Alt+F12
+  - Alt+4
+  - Sft+F10
   - ''
   - BT CLR
-  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - ''
-  - ''
-  - ''
-  - ''
-  - '&ij_search_everywhere'
+  - Alt+1
+  - Meh+E
+  - Sft+Ctl+N
+  - Sft+Ctl+A
   - {t: mac_base, h: toggle}
   - ''
   - PRINTSCREEN
@@ -300,10 +300,10 @@ layers:
   - Ctl+Sft+PRINTSCREEN
   - '&center_window'
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Alt+INS
+  - Sft+F6
+  - Alt+Ctl+F7
+  - Alt+Ctl+L
   - ''
   - ''
   - '&my_email'
