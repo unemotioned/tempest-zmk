@@ -239,7 +239,7 @@
 
         mac_util {
             bindings = <
-       &kp LG(N6)  &kp LG(F12)        &kp LG(N4)      &kp LA(LC(R))  &none   &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3
+       &kp LG(N6)  &kp LA(F12)        &kp LG(N4)      &kp LA(LC(R))  &none   &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3
 &none  &kp LG(N1)  &kp LS(LA(LG(E)))  &kp LS(LG(O))   &kp LS(LG(A))  &none   &to 4       &kp LS(LG(N4))  &kp LS(LG(N3))  &kp LS(LG(N5))  &none         &none
        &kp LG(N)   &kp LS(F6)         &kp LA(LG(F7))  &kp LA(LG(L))  &none   &none       &my_email       &my_alias       &syusyuk        &none
                                       &none           &none          &trans  &trans      &none           &none
