@@ -279,7 +279,7 @@ layers:
   - {t: ▽, type: trans}
   mac_util:
   - Gui+6
-  - Gui+F12
+  - Alt+F12
   - Gui+4
   - Ctl+Alt+R
   - ''
