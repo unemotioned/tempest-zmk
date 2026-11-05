@@ -417,6 +417,10 @@ path.combo {
 <rect rx="6" ry="6" x="217" y="77" width="28" height="26" class="combo"/>
 <text x="231" y="90" class="combo tap">&amp;youtube_speed_up</text>
 </g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="94" y="48" width="28" height="26" class="combo"/>
+<text x="108" y="61" class="combo tap">ESC</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 349)" class="layer-win_symb">
@@ -1117,6 +1121,10 @@ path.combo {
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="217" y="77" width="28" height="26" class="combo"/>
 <text x="231" y="90" class="combo tap">&amp;youtube_speed_up</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="94" y="48" width="28" height="26" class="combo"/>
+<text x="108" y="61" class="combo tap">ESC</text>
 </g>
 </g>
 </g>

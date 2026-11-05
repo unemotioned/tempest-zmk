@@ -404,3 +404,6 @@ combos:
 - p: [13, 14]
   k: '&youtube_speed_up'
   l: [mac_base, win_base]
+- p: [0, 1]
+  k: ESC
+  l: [win_base, mac_base]
